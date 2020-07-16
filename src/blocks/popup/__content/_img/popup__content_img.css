@@ -1,0 +1,12 @@
+.popup__content_img {
+    width: auto;
+    height: auto;
+    padding: 0;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+
+/* .popup__content_img:hover {
+    cursor: zoom-in;
+} */

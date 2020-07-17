@@ -29,3 +29,5 @@ class UserInfo {
         this._currentJob.textContent = this._job;
     }
 }
+
+export { UserInfo };

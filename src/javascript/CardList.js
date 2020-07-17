@@ -13,3 +13,5 @@ class CardList {
         });
     }
 }
+
+export { CardList };

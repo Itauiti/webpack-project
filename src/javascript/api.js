@@ -60,3 +60,5 @@ class Api {
         });
     }
 }
+
+export { Api };

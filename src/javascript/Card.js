@@ -112,3 +112,5 @@ class Card {
         }
     }
 }
+
+export { Card };

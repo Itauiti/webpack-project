@@ -72,3 +72,5 @@ class FormValidator {
         this._error.forEach(item => item.textContent = '')
     }
 }
+
+export { FormValidator };

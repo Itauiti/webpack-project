@@ -12,3 +12,5 @@ class Popup {
         this._popup.classList.remove(this._openedClass);
     }
 }
+
+export { Popup };

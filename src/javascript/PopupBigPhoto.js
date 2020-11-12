@@ -1,3 +1,5 @@
+import { Popup } from './Popup.js';
+
 class PopupBigPhoto extends Popup {
     constructor(element, openedClass, imgPlace) {
         super(element, openedClass);
@@ -8,3 +10,5 @@ class PopupBigPhoto extends Popup {
         this._imgPlace.src = link;
     }
 }
+
+export { PopupBigPhoto };

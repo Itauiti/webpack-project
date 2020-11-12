@@ -1,7 +1,7 @@
 {
     "name": "webpack-project",
     "version": "0.0.1",
-    "description": "",
+    "description": "webpack-project in Yandex.Praktikum",
     "main": "./src/javascript/script.js",
     "scripts": {
         "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",

@@ -8,7 +8,7 @@ import { UserInfo } from './UserInfo.js';
 import { Api } from './api.js';
 
 
-const API_URL = NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
+const API_URL = NODE_ENV === 'production' ? 'https://nomoreparties.co' : 'http://nomoreparties.co';
 
 const root = document.querySelector('.root');
 const placesList = root.querySelector('.places-list');
@@ -86,6 +86,8 @@ userInfoApi.get().then(res => {
 });
 
 cardApi.get().then(res => {
+    const maxNumberOfCards = 20;
+    res.length = maxNumberOfCards; 
         res.map(item => {
             const card = new Card(item, popupBigPhotos, cardApi, cardLike);
             const x = [];
